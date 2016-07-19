@@ -1,0 +1,47 @@
+body {
+    background-color: #6AA121;
+    font: 14px Tahoma, sans-serif;  
+}
+
+h1 {
+color: #D4A017;
+text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: Verdana;
+    font-style: italic;
+    color:white;
+}
+
+input,textarea { 
+	background-color:yellow; 
+	display: inline-block;
+}
+input[type=submit] {
+    background:#ccc; 
+
+}
+
+#outline {
+    border-style:solid;
+    border-color:green;
+    outline-width: thin;
+    font-size: 16px;
+}
+
+#response{
+    font: 16px Tahoma, sans-serif;  
+    color: white;
+}
+#button1 {
+    background-color: #D4A017; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

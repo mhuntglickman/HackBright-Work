@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	    <title>Skills-HTML-CSS-MHG</title>
+	</head>
+
+	<body>
+		<h1>Uber Melon Application for Employment</h1>
+		<div id="outline">
+			<p>The explosive impact of computers and information technology on our everyday lives has generated a need to design and develop new computer software systems and to incorporate new technologies into a rapidly growing range of applications. The tasks performed by workers known as computer software engineers evolve quickly,reflecting new areas of specialization or changes in technology, as well as the preferences and practices of employers. Computer software engineers apply the principles and techniques of computer science, engineering, and mathematical analysis to the design, development, testing, and evaluation of the software and systems that enable computers to perform their many applications. Software engineers working in applications or systems development analyze users' needs and design, construct, test, and maintain computer applications software or systems.
+			Software engineers can be involved in the design and development of many types of software, including software for operating systems and network distribution, and compilers, which	convert programs for execution on a computer. In programming, or coding, software engineers instruct a computer, line by line, how to perform a function.They also solve technical problems that arise. Software engineers must possess strong programming skills, but are more concerned with developing algorithms and analyzing and solving programming problems than with actually writing code.
+			</p>
+			
+			<p>Please fill out the form below to apply for UberMelon open positions.
+			</p>
+		
+		</div>
+			
+		<br>
+		<form action="/application-response" method="POST">
+			<fieldset>
+		 	<div class="form_fields">
+		    	<label id="form_title"><h3><legend>Applicant information:</legend></h3></label>		
+		    	
+		    	First name:<br>
+		    	<input type="text" name="firstname" id="field_firstname"><br><br>
+		    	
+		    	<b>Last name:</b><br>
+		    	<input type="text" name="lastname" id="field_lastname"><br><br>
+		    	
+
+				Salary Requrirements: <br>
+				<input type="text" name="salary_req" id="field_salary_req"><br>
+				
+				<br>
+			
+
+				<label>Positons:
+	                <select name="job" id="select_job">
+	                    <option value="Software Engineer">Software Engineer</option>
+	                    <option value="QA Engineer">QA Engineer</option>
+	                    <option value="Product Manager">Product Manager</option>
+	                   
+	                </select>
+	                <br><br><br>
+	            </label>
+			
+	        </div>
+	   	
+	        <!-- end of div class="form_fields" -->
+
+	        <input type="submit" value="Submit">
+			<!--end of div class="submit-button"  -->
+		</form>
+		</fieldset>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+{%extends 'base.html'%}
+
+{% block style %}<link rel="stylesheet" href="/static/css/styles.css">{% endblock %}
+
+{% block header %}Application Response UberMelon{% endblock %}
+
+{% block content %}
+	<h1>Thank you for your submission</h1>
+	<div id="response">
+	Thank you, {{firstname}} {{lastname}}, for applying to be a {{job}}. Your
+	minimum salary requirement is {{salary_req}} dollars.
+	</div>
+{% endblock %}
